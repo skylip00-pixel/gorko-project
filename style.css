@@ -47,8 +47,6 @@ h2 {
   text-align: center;
 }
 
-/* Шапка */
-
 .header {
   border-bottom: 1px solid #d3adab;
   background: #fff7f5;
@@ -95,8 +93,6 @@ h2 {
 .navigation.open { display: flex; flex-direction: column; }
 .navigation a { padding: 10px 0; }
 .header-phone, .hearts { display: none; }
-
-/* Главная часть */
 
 .hero, .services, .consultation, .contact { text-align: center; }
 .hero, .consultation { position: relative; }
@@ -209,8 +205,6 @@ h2 {
 .portfolio-photos img { height: 350px; }
 .consultation p { margin-bottom: 25px; font: 20px/1.7 Viaoda, Georgia, serif; }
 
-/* Форма и подвал */
-
 .contact form { max-width: 720px; margin: auto; }
 
 .form-fields {
@@ -254,8 +248,6 @@ h2 {
   justify-content: center;
   gap: 15px;
 }
-
-/* Большие экраны */
 
 @media (min-width: 768px) {
   h2 { font-size: 46px; }
